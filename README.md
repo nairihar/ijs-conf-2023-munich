@@ -4,6 +4,8 @@ Date: Tuesday, October 24 2023 | 16:45 - 17:45
 
 [The link to my talk is on javascript-conference.com.](https://javascript-conference.com/node-js/multithreading-node-js/)
 
+![](https://topentol.sirv.com/ijs-2023-munich/wallpaper.jpg)
+
 ---
 
 ## Slide
@@ -56,3 +58,10 @@ A simple abstraction for Node.js worker_threads, allowing you to create and shar
 npm i worker_map
 cd 6_worker_shared_map && node main.js
 ```
+
+---
+
+Sincerely,
+Nairi Harutyunyan
+
+[**Medium**](https://nairihar.medium.com/) | [**Linkedin**](https://linkedin.com/in/nairihar) | [**@javascript newsletter in Telegram**](https://t.me/javascript)
