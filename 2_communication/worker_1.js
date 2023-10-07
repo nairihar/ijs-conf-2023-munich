@@ -1,12 +1,10 @@
 const { Worker, parentPort } = require('worker_threads');
 
-parentPort.postMessage('Hello form factory!');
+parentPort.postMessage('Hello form Worker_1!');
 
-const worker = new Worker('./factory/worker.js', {
+new Worker('./worker_2', {
     workerData: {
       port: parentPort
     },
     transferList: [ parentPort ],
 });
-
-setInterval(() => {}, 1000);

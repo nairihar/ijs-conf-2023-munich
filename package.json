@@ -1,0 +1,11 @@
+{
+  "name": "ijs-conf-munich-2023",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nairi Harutyunyan",
+  "license": "ISC",
+  "dependencies": {
+    "funthreads": "^2.0.3",
+    "worker_map": "^0.0.8"
+  }
+}
