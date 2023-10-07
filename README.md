@@ -1,16 +1,7 @@
-# JSConfArmenia-2021 / Parallel Universes | Node.js
-Source code and slide of JavaScript Conference Armenia 2021
+# **Multithreading w/ Node.JS** (`iJS Conference 2023 | Munich`)
+*Examples and Slide*
 
 ----------
-## Introduction
 
-> - Node.js Threads
-> - Worker Threads
-> - Shared Buffer & Atomics
+## Examples
 
-## Resources
-
-> - **Multithreaded JavaScript** https://www.oreilly.com/library/view/multithreaded-javascript/9781098104429/
-> - **Node.js Worker Threads | Doc** https://nodejs.org/api/worker_threads.html
-
-**Slide:** https://slides.com/nairihar/parallel-universes
