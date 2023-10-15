@@ -4,8 +4,5 @@ const { workerData } = require('worker_threads');
 workerData.port.on('message', (message) => {
   console.log('Worker_2 received from Worker_1:', message);
 
-  workerData.port.postMessage('Love you bro!');
+  workerData.port.postMessage('I am great!');
 });
-
-setInterval(() => {}, 1000);
-

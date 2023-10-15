@@ -1,12 +1,15 @@
-const { executeInThread } = require('funthreads');
+const { executeInThread, ThreadModules } = require('funthreads');
 
-async function calculate() {
-    const values = await Promise.all([
-        executeInThread(() => 2 ** 10), // this doesn't block the main thread
-        executeInThread(() => 3 ** 10)
-    ]);
-    
-    console.log(values); // 1024, 59049
+const threadModules = new ThreadModules('fs');
+
+function task(m, a, b) {
+    console.log(a, b)
+    return b;
 }
 
-calculate();
+executeInThread(task, threadModules, 1, 2)
+    .then((result) => {
+        console.log('result', result);
+    });
+
+

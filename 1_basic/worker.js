@@ -1,4 +1,5 @@
-const { parentPort } = require("worker_threads");
+const { parentPort } = require('worker_threads');
 
 parentPort.postMessage('Hello!');
 
+// process.pid

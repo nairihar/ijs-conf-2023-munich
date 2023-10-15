@@ -5,5 +5,3 @@ const { workerData, parentPort } = require('worker_threads');
 const { port } = workerData;
 
 port.postMessage('Hello from Worker_2!');
-
-setInterval(() => {}, 1000);

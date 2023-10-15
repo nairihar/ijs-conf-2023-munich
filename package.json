@@ -5,7 +5,7 @@
   "author": "Nairi Harutyunyan",
   "license": "ISC",
   "dependencies": {
-    "funthreads": "^2.0.3",
+    "funthreads": "^2.0.4",
     "worker_map": "^0.0.8"
   }
 }

@@ -17,4 +17,3 @@ const worker2 = new Worker('./worker_2', {
 });
 
 worker1.postMessage('Send something to the other thread!');
-
