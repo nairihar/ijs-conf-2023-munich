@@ -1,5 +1,7 @@
+// worker thread
 const { parentPort } = require('worker_threads');
 
 parentPort.postMessage('Hello!');
 
-// process.pid
+console.log('PID', process.pid);
+
