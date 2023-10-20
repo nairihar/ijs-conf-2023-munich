@@ -2,14 +2,14 @@
 const { Worker } = require('worker_threads');
 
 const buffer = new SharedArrayBuffer(4);
-const sharedArray = new Int32Array(buffer);
+const i16 = new Int16Array(buffer);
 
-console.log('M [SA]:', sharedArray);
+console.log('M [SA]:', i16);
 
 new Worker('./worker', {
-  workerData: { sharedArray }
+  workerData: { sharedArray: i16 }
 });
 
 setTimeout(() => {
-  console.log('M [SA]:', sharedArray);
+  console.log('M [SA]:', i16);
 }, 300);

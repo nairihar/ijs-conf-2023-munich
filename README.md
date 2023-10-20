@@ -24,10 +24,10 @@ cd 1_basic && node main.js
 cd 2_communication && node main.js
 ```
 
-[**3) Workers communication**](https://github.com/nairihar/ijs-conf-2023-munich/tree/main/3_workers_communication)
+[**3) Workers communication**](https://github.com/nairihar/ijs-conf-2023-munich/tree/main/3_worker_communication)
 
 ```bash
-cd 3_workers_communication && node main.js
+cd 3_worker_communication && node main.js
 ```
 
 [**4) Shared state**](https://github.com/nairihar/ijs-conf-2023-munich/tree/main/4_shared_state)
