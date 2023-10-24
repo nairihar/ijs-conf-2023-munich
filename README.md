@@ -9,7 +9,7 @@ Date: Tuesday, October 24 2023 | 16:45 - 17:45
 ---
 
 ## Slide
-*Soon*
+[**Go to the slide**](https://github.com/nairihar/ijs-conf-2023-munich/tree/main/Slide.pdf)
 
 ## Examples
 [**1) Basic**](https://github.com/nairihar/ijs-conf-2023-munich/tree/main/1_basic)
