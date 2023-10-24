@@ -5,4 +5,4 @@ const { workerData } = require('worker_threads');
 const map = new WorkerMap(workerData.mapBuffer);
 console.log(map.get('balance')); // 100
 
-map.set('balance', 200);
+map.set('balance', { usd: 400 });
