@@ -9,5 +9,5 @@ new Worker('./worker', {
 });
 
 setTimeout(() => {
-  console.log(map.get('balance').usd);
+  console.log(map.get('balance')); // { usd: ? }
 }, 50);
